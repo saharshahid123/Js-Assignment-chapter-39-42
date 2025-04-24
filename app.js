@@ -116,8 +116,8 @@
     // Question 6 
     // Write a function to delete all vowels from a sentence. Assume
     // that the sentence is not more than 25 characters long.
+
     // answer:
-    
     // let userInput = prompt("enter a line less than 25 character long")
     // function vowelElimination() {
     //     let removingChar = "";
@@ -136,7 +136,42 @@
     // document.write("Before: " + userInput + "<br />" + "After: " + result)
     
     // Question 7 
+   // Write a function with switch statement to count the number of occurrences of any two vowels in succession in a line of text.
     
+   //answer:
+//    let str = "PlEases read this application and give me gratuity".toLowerCase();
+//    let count = 0;
+//    let characters = []
+//    function vowel(sentence) {
+//    for (let i = 0; i < sentence.length; i++) {
+//     let firstChar = sentence[i];
+//     let secondChar = sentence[i + 1];
+//     console.log(firstChar + secondChar);
+                              
+//     if (checkVowel(firstChar) && checkVowel(secondChar)) {
+//       count++;
+//       let merged = firstChar+secondChar;
+//       characters.push(merged)
+//     }
+//   }
+// }
+//    function checkVowel(char) {
+//     switch (char) {
+//       case "a":
+//       case "e":
+//       case "i":
+//       case "o":
+//       case "u":
+//         return true;
+//       default:
+//         return false;
+//     }
+//   }
+  
+//   console.log(count+"<br />")
+//   console.log(characters);
+
+   
     // Question 8 
     // The distance between two cities (in km.) is input through the
     // keyboard. Write four functions to convert and print this
@@ -208,5 +243,6 @@
     //                            X ---------------- X ----------------- X ---------------------X ---
 
 
-    
-    
+
+
+
